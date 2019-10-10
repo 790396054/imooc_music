@@ -25,4 +25,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation this.rootProject.depsLibs.appcompact
+    implementation this.rootProject.depsLibs.design
+    implementation project(':lib_common_ui')
 }

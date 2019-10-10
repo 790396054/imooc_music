@@ -7,6 +7,9 @@ buildscript {
         jcenter()
         mavenCentral()
         maven {
+            url "https://jitpack.io"
+        }
+        maven {
             url 'http://localhost:8081/repository/imooc-releases/'
             credentials {
                 username 'admin'
@@ -34,6 +37,9 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
         maven {
             url 'http://localhost:8081/repository/imooc-releases/'
             credentials {
